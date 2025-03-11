@@ -1,10 +1,10 @@
 import React from 'react';
 import { List, Link, IconWrapper, Item } from './Footer.styles';
-import { ReactComponent as EmailLogo } from '../../../../../assets/email.svg';
-import { ReactComponent as LinkedinLogo } from '../../../../../assets/linkedin.svg';
-import { ReactComponent as GithubLogo } from '../../../../../assets/github.svg';
-import { ReactComponent as SpotifyLogo } from '../../../../../assets/spotify.svg';
-import { ReactComponent as TwitterLogo } from '../../../../../assets/twitter.svg';
+import { ReactComponent as EmailLogo } from '../../../../../assets/v1/email.svg';
+import { ReactComponent as LinkedinLogo } from '../../../../../assets/v1/linkedin.svg';
+import { ReactComponent as GithubLogo } from '../../../../../assets/v1/github.svg';
+import { ReactComponent as SpotifyLogo } from '../../../../../assets/v1/spotify.svg';
+import { ReactComponent as TwitterLogo } from '../../../../../assets/v1/twitter.svg';
 
 const Footer = () => (
   <footer>

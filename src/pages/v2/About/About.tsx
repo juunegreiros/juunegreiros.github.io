@@ -1,8 +1,12 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import Header from './components/Header';
+import { lightTheme } from '../../../config/theme';
+import GlobalStyle from '../../../config/GlobalStyle';
 
 export default () => (
-  <div>
-    <h1>About</h1>
-    <p>This is the about page.</p>
-  </div>
+  <ThemeProvider theme={lightTheme}>
+    <GlobalStyle />
+    <Header />
+  </ThemeProvider>
 );

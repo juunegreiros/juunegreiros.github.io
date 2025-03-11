@@ -1,11 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { Container, Main } from './Page.styles';
 import Footer from '../Footer';
 import Home from '../..';
-import GlobalStyle from '../../../../../config/GlobalStyle';
-import { lightTheme, darkTheme } from '../../../../../config/theme';
+import GlobalStyle from '../../../../../config/GlobalStyleV1';
+import { lightTheme, darkTheme } from '../../../../../config/themeV1';
 import Header from '../Header';
 
 const Page: React.FC = () => {
