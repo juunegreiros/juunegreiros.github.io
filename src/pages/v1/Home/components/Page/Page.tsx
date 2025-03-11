@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { Container, Main } from './Page.styles';
 import Footer from '../Footer';
-import Home from '../../pages/Home';
-import GlobalStyle from '../../config/GlobalStyle';
-import { lightTheme, darkTheme } from '../../config/theme';
+import Home from '../..';
+import GlobalStyle from '../../../../../config/GlobalStyle';
+import { lightTheme, darkTheme } from '../../../../../config/theme';
 import Header from '../Header';
 
 const Page: React.FC = () => {
@@ -16,11 +16,7 @@ const Page: React.FC = () => {
       <Container>
         <Header theme={theme} setTheme={setTheme} />
         <Main>
-          <BrowserRouter>
-            <Routes>
-              <Route path='/' element={<Home />} />
-            </Routes>
-          </BrowserRouter>
+          <Home />
         </Main>
         <Footer />
       </Container>
